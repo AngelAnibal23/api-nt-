@@ -8,9 +8,10 @@
 <body>
     <div>
         <h1>CDN LINK DOTA 2</h1>
-        <form action="procesar.php">
-            <select name="heros-dota" id="">
-                <option value=""></option>
+        <form action="procesar.php" method="post">
+            <label for="heros-dota">Imagen de los heroes de Dota 2</label>
+            <br><br>
+            <select name="heros-dota" id="heros-dota">
                 <option value="Anti-Mage">Anti-Mage</option>
                 <option value="Axe">Axe</option>
                 <option value="Beastmaster">Beastmaster</option>
@@ -102,6 +103,9 @@
                 <option value="Wraith-King">Wraith-King</option>
             </select>
             
+            <br><br>
+            
+            <button type="submit">Enviar</button>
 
         </form>
     </div>
